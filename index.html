@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+    <style>
+        .row-1 .col-1{
+            width: 100%;
+            height: 40px;
+            color: white;
+            background-color: black;
+        }
+        .row .col-1 div{
+         float: left;
+         padding-left: 20px;
+         margin-left: 15px;
+         margin-top: 5px;
+        }
+        .row-1 .col-1 div:hover{
+            cursor: pointer;
+            color: yellow;
+        }
+        .col-md-4{
+          border: 2px solid red;
+          position: relative;
+          top: 150px;
+          height: 250px;
+        }
+        #man{
+          position: relative;
+          right: 12px;
+        }
+   </style>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row row-1">
+          <div class="col col-1">
+            <div>Home</div>
+            <div>Work</div>
+            <div>About</div>
+            <div>Contact</div>
+          </div>
+        </div>    
+        <div class="row justify-content-around">
+          <div class="col-md-4"><h2>Hey i'm Zaid Shaikh & i'm Web Developer</h2></div>
+          <div class="col-md-4"><img src="man.jpeg" width="420" height="245" id="man"></div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
